@@ -1,0 +1,52 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background for Kubernetes Cluster -->
+  <rect x="0" y="0" width="700" height="500" fill="none" stroke="blue" stroke-width="2"/>
+  <text x="350" y="20" font-family="Arial" font-size="16" text-anchor="middle">Kubernetes Cluster</text>
+
+  <!-- *.nikobelic29.cc Server Icon -->
+  <g transform="translate(0, 50)">
+    <rect x="0" y="0" width="100" height="100" fill="lightgray" stroke="black" stroke-width="1"/>
+    <text x="50" y="150" font-family="Arial" font-size="12" text-anchor="middle">*.nikobelic29.cc</text>
+    <image href="https://www.svgrepo.com/download/27262/server.svg" x="10" y="10" width="80" height="80"/>
+  </g>
+
+  <!-- Ingress NGINX Icon -->
+  <g transform="translate(250, 50)">
+    <rect x="0" y="0" width="100" height="100" fill="lightgray" stroke="black" stroke-width="1"/>
+    <text x="50" y="150" font-family="Arial" font-size="12" text-anchor="middle">Ingress NGINX</text>
+    <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/1200px-Nginx_logo.svg.png" x="10" y="10" width="80" height="80"/>
+  </g>
+
+  <!-- Ground Route -->
+  <rect x="50" y="250" width="200" height="50" fill="lightblue" stroke="black" stroke-width="1"/>
+  <text x="150" y="280" font-family="Arial" font-size="16" text-anchor="middle">Ground</text>
+
+  <!-- Unit Service -->
+  <g transform="translate(500, 200)">
+    <rect x="0" y="0" width="100" height="100" fill="lightgreen" stroke="black" stroke-width="1"/>
+    <text x="50" y="150" font-family="Arial" font-size="12" text-anchor="middle">Unit Service</text>
+    <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1200px-Kubernetes_logo_without_workmark.svg.png" x="10" y="10" width="80" height="80"/>
+  </g>
+
+  <!-- Pods for Unit Deployment -->
+  <g transform="translate(500, 350)">
+    <rect x="0" y="0" width="100" height="100" fill="lightyellow" stroke="black" stroke-width="1"/>
+    <text x="50" y="150" font-family="Arial" font-size="12" text-anchor="middle">3 Pods</text>
+    <image href="https://raw.githubusercontent.com/kubernetes/community/refs/heads/master/icons/png/resources/labeled/pod-128.png" x="10" y="10" width="80" height="80"/>
+  </g>
+
+  <!-- Arrows -->
+  <line x1="100" y1="150" x2="300" y2="150" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="300" y1="150" x2="150" y2="250" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="350" y1="150" x2="550" y2="250" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="550" y1="300" x2="550" y2="350" stroke="black" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Arrowhead Marker Definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="black" />
+    </marker>
+  </defs>
+
+</svg>

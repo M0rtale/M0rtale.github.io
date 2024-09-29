@@ -17,13 +17,6 @@ body {
 }
 
 
-/* Image styling */
-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-}
 
 /* Navigation links */
 .nav-links {
@@ -96,7 +89,7 @@ img {
 
 /* About Me text styling */
 .about-text {
-    font-family: 'Helvetica', sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 18px;
     line-height: 1.6;
     color: #333;
@@ -110,7 +103,91 @@ img {
     margin-top: 4.0909%; /* 9.0909% margin on the top */
 }
 
-
-.projects-container {
-    
+/* Transparent buttons with outline */
+.buttons {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    justify-content: center;
+    align-items: center; /* Center the buttons */
+    gap: 20px; /* Space between buttons */
+    margin-top: 40px;
 }
+
+.project-button {
+    text-decoration: none;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    border: 2px solid #333;
+    border-radius: 50px;
+    padding: 15px; /* Increase padding for a larger button */
+    width: 100%; /* Full width of the container */
+    max-width: 700px; /* Optional: Limit the max width of buttons */
+    transition: all 0.3s ease;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: center; /* Center the text */
+}
+
+.project-button:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+
+.description {
+    font-weight: normal; /* Make the description non-bold */
+    font-size: 14px; /* Slightly smaller font size for description */
+    display: block;
+    margin-top: 10px;
+}
+
+/* Additional styling to match the site */
+.projects-container {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0 20px;
+    opacity: 0;
+    animation: fadeIn 0.61803398903s ease-in forwards;
+    animation-delay: 0.61803398903s;
+    width: 76.470588236%;
+    margin-left: 11.764705882%;
+    margin-right: 11.764705882%;
+    margin-top: 4.0909%;
+    text-align: center;
+}
+
+/* github logo */
+.github-logo {
+    color: #333;
+    width: 76.470588236%;
+    margin-left: 11.764705882%;
+    margin-right: 11.764705882%;
+    margin-top: 10.0909%;
+    text-align: center;
+}
+
+/* Additional styling to match the site */
+.Inframaps-container {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0 20px;
+    opacity: 0;
+    animation: fadeIn 0.61803398903s ease-in forwards;
+    animation-delay: 0.61803398903s;
+    margin-top: 4.0909%;
+    text-align: center;
+}
+
+/* Additional styling to match the site */
+.Inframaps-container img {
+    display: inline-block;
+    max-width: 100%; /* Ensures the image scales properly */
+    height: auto; /* Keeps the image aspect ratio */
+}
+
